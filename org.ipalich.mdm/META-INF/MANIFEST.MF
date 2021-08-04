@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mdm
+Bundle-SymbolicName: org.ipalich.mdm
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Service-Component: OSGI-INF/org.ipalich.mdm.processfactory.xml
+Import-Package: org.adempiere.base,
+ org.adempiere.plugin.utils,
+ org.compiere.model,
+ org.compiere.process,
+ org.compiere.util,
+ org.compiere.wf
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
